@@ -260,3 +260,36 @@ footer {
     min-width: 900px;
   }
 }
+@media (max-width: 905px) {
+  main .columnas {
+    width: 88%;
+    height: 85%;
+    min-width: 800px;
+  }
+}
+@media (max-width: 805px) {
+  body {
+    width: 100%;
+    height: auto;
+    border: 3px solid gray;
+  }
+  header {
+    border: 1px solid rebeccapurple;
+  }
+  header p {
+    min-width: 450px;
+  }
+  header header h2 {
+    height: 40px;
+  }
+  main {
+    width: 100%;
+  }
+  main .columnas {
+    width: 88%;
+    height: 100%;
+    min-width: 950px;
+    display: flex;
+    flex-direction: column;
+  }
+}
