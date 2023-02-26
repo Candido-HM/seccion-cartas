@@ -268,13 +268,9 @@ footer {
   }
 }
 @media (max-width: 805px) {
-  /*body {
-        width: 100%;
-        height: auto;
-        border: 3px solid gray;
-    }*/
   header {
     border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
   }
   header p {
     min-width: 450px;
@@ -284,18 +280,31 @@ footer {
   }
   main {
     width: auto;
+    height: auto;
     flex-direction: column;
     padding: 30px;
     border: 1px solid gold;
   }
   main .columnas {
     width: auto;
-    height: 100vh;
+    height: 1000px;
     min-width: auto;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border: 1px solid green;
+    /*.card-2 {
+                width: auto;
+                height: auto;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+    
+                .art-2 {
+                    width: auto;
+                    height: 80%;
+                }
+            }*/
   }
   main .columnas .card-1 {
     width: auto;
@@ -305,6 +314,21 @@ footer {
     flex-direction: column;
   }
   main .columnas .card-1 .art-1 {
+    width: auto;
+    height: 80%;
+  }
+  main .columnas .card-2 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .columnas .card-2 .art-2 {
+    width: auto;
+    height: 80%;
+  }
+  main .columnas .card-2 .art-3 {
     width: auto;
     height: 80%;
   }
