@@ -1,0 +1,278 @@
+// Importar librerias de los estilos de letras
+@font-face {
+    font-family: "PoppinsLight";
+    src: url('/fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url('/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url('/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+// *********   Declarar Variables   ************
+@light: PoppinsLight;
+@regular: PoppinsRegular;
+@SemiBold: PoppinsSemiBold;
+@border-art: rgba(0, 0, 0, 0.2) 0px 30px 40px -7px;
+@bg-art: #FFFFFF;
+
+// ********************** Mixions *********************************** 
+.encabezado-card() {
+    width: auto;
+    font-family: @SemiBold;
+    color: #6E7079;
+    font-size: 25px;
+    margin-bottom: auto;
+}
+
+.parrafo-card() {
+    width: auto;
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: @regular;
+    color: #ACABB0;
+    font-size: 18px;
+}
+
+.imagen-card() {
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: auto;
+    border: 1px solid red;
+}
+
+
+// ********* ESTILOS GENERALES *******
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: auto;
+    height: 170px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h1 {
+        width: 100%;
+        font-family: @light;
+        color: #929196;
+        font-size: 20px;
+        margin-bottom: auto;
+    }
+
+    h2 {
+        width: 100%;
+        height: 50px;
+        font-family: @SemiBold;
+        color: #2F2F3B;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    p {
+        width: 50%;
+        min-width: 650px;
+        font-family: @regular;
+        color: #C7C7C7;
+        font-size: 15px;
+        margin-top: auto;
+        display: block;
+        justify-content: center;
+    }
+}
+
+main {
+    width: auto;
+    height: 90%;
+    margin-bottom: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .columnas {
+        width: 88%;
+        height: 100%;
+        min-width: 950px;
+        display: flex;
+        flex-direction: row;
+
+        .card-1 {
+            width: 33.3%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .art-1 {
+                width: 100%;
+                height: 45%;
+                background: @bg-art;
+                box-shadow: @border-art;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-top: 1px solid #45ACAB;
+                box-shadow: @border-art,
+                            0px -1px 2px 0px #A2FBF9,
+                            0px 1px 0px 0px  #89CFD1 inset;
+                border-radius: 10px;
+
+                h1 {
+                    .encabezado-card();
+                }
+
+                p { 
+                    .parrafo-card();
+                }
+
+                .imagen {
+                    .imagen-card();
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+
+        .card-2 {
+            width: 33.3%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .art-2 {
+                width: auto;
+                height: 50%;
+                margin-bottom: 10px;
+                background: @bg-art;
+                box-shadow: @border-art;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-top: 1px solid #A42C2B;
+                box-shadow: @border-art,
+                            0px -1px 0px 0px #F27C7C,
+                            0px 1px 0px 0px  #FBC9CA inset;
+                border-radius: 10px;
+
+                h1 {
+                    .encabezado-card();
+                }
+
+                p { 
+                    .parrafo-card();
+                }
+
+                .imagen {
+                    .imagen-card();
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+
+            .art-3 {
+                width: auto;
+                height: 50%;
+                margin-top: 10px;
+                background-color: @bg-art;
+                box-shadow: @border-art;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-top: 1px solid #CFA154;
+                box-shadow: @border-art,
+                            0px -1px 2px 0px #ECCCA3,
+                            0px 1px 0px 0px  #FFE19A inset;
+                border-radius: 10px;
+
+                h1 {
+                    .encabezado-card();
+                }
+
+                p { 
+                    .parrafo-card();
+                }
+
+                .imagen {
+                    .imagen-card();
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+
+        .card-3 {
+            width: 33.3%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .art-4 {
+                width: 100%;
+                height: 45%;
+                background: @bg-art;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-top: 1px solid #477FAE;
+                box-shadow: @border-art,
+                            0px -1px 2px 0px #B2E3FF,
+                            0px 1px 0px 0px  #89B0D1 inset;
+                border-radius: 10px;
+
+                h1 {
+                    .encabezado-card();
+                }
+
+                p { 
+                    .parrafo-card();
+                }
+
+                .imagen {
+                    .imagen-card();
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+// ************** Responsivo *******************
