@@ -335,7 +335,37 @@ footer {
   main .columnas .card-1 .art-1 {
     width: 90%;
   }
-  main .columnas .card-3 .art-3 {
+  main .columnas .card-3 .art-4 {
     width: 90%;
+  }
+}
+@media (max-width: 505px) {
+  header p {
+    min-width: 350px;
+  }
+  main .columnas .card-1 .art-1 {
+    width: 86%;
+  }
+  main .columnas .card-3 .art-4 {
+    width: 86%;
+  }
+  footer {
+    font-size: 13px;
+  }
+}
+@media (max-width: 405px) {
+  header p {
+    min-width: 320px;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 345px) {
+  header p {
+    min-width: 300px;
+  }
+  footer {
+    font-size: 10px;
   }
 }
