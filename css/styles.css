@@ -269,7 +269,6 @@ footer {
 }
 @media (max-width: 805px) {
   header {
-    border: 1px solid rebeccapurple;
     margin-bottom: 10px;
   }
   header p {
@@ -283,28 +282,14 @@ footer {
     height: auto;
     flex-direction: column;
     padding: 30px;
-    border: 1px solid gold;
   }
   main .columnas {
     width: auto;
-    height: 1000px;
+    height: 1050px;
     min-width: auto;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 1px solid green;
-    /*.card-2 {
-                width: auto;
-                height: auto;
-                padding: 10px;
-                display: flex;
-                flex-direction: column;
-    
-                .art-2 {
-                    width: auto;
-                    height: 80%;
-                }
-            }*/
   }
   main .columnas .card-1 {
     width: auto;
@@ -312,9 +297,10 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   main .columnas .card-1 .art-1 {
-    width: auto;
+    width: 94%;
     height: 80%;
   }
   main .columnas .card-2 {
@@ -323,6 +309,7 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-self: center;
   }
   main .columnas .card-2 .art-2 {
     width: auto;
@@ -330,6 +317,17 @@ footer {
   }
   main .columnas .card-2 .art-3 {
     width: auto;
+    height: 80%;
+  }
+  main .columnas .card-3 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .columnas .card-3 .art-4 {
+    width: 94%;
     height: 80%;
   }
 }
