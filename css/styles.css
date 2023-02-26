@@ -331,3 +331,11 @@ footer {
     height: 80%;
   }
 }
+@media (max-width: 605px) {
+  main .columnas .card-1 .art-1 {
+    width: 90%;
+  }
+  main .columnas .card-3 .art-3 {
+    width: 90%;
+  }
+}
