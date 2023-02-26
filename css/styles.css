@@ -283,7 +283,7 @@ footer {
     height: 40px;
   }
   main {
-    width: 100%;
+    width: auto;
   }
   main .columnas {
     width: auto;
