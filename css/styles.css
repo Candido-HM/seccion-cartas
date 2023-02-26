@@ -284,12 +284,28 @@ footer {
   }
   main {
     width: auto;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid gold;
   }
   main .columnas {
     width: auto;
-    height: 100%;
+    height: 100vh;
     min-width: auto;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border: 1px solid green;
+  }
+  main .columnas .card-1 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .columnas .card-1 .art-1 {
+    width: auto;
+    height: 80%;
   }
 }
