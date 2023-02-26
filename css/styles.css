@@ -369,3 +369,39 @@ footer {
     font-size: 10px;
   }
 }
+@media (max-width: 330px) {
+  header p {
+    min-width: 290px;
+    font-size: 12px;
+  }
+  main .columnas .card-1 .art-1 {
+    width: 84%;
+  }
+  main .columnas .card-1 .art-1 h1 {
+    font-size: 20px !important;
+  }
+  main .columnas .card-2 .art-2 h1 {
+    font-size: 20px !important;
+  }
+  main .columnas .card-2 .art-3 h1 {
+    font-size: 20px !important;
+  }
+  main .columnas .card-3 .art-4 h1 {
+    font-size: 20px !important;
+  }
+  main .columnas .card-1 .art-1 p {
+    font-size: 15px;
+  }
+  main .columnas .card-2 .art-2 p {
+    font-size: 15px;
+  }
+  main .columnas .card-2 .art-3 p {
+    font-size: 15px;
+  }
+  main .columnas .card-3 .art-4 p {
+    font-size: 15px;
+  }
+  main .columnas .card-3 .art-4 {
+    width: 84%;
+  }
+}
